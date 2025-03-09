@@ -21,18 +21,20 @@ The success of the project should be demonstrated via either the security proper
 
 *How does this project benefit the greater Ethereum ecosystem?*
 
-This project aims to increase the trust guarantees of the Ethereum Consensus Layer specifications. Ethereum is quite a complex distributed protocol, with many moving parts and so-called “corner cases” that are easy to miss (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure) in the Fork Choice part of the Ethereum specification.
+This project aims to increase the trust guarantees of the Ethereum Consensus Layer specifications. Given its complexity, the current Ethereum consensus protocol Gasper has been exposed of bugs or vulnerabilities in its fork choice Python specification which were fixed with great efforts (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure). A formally verified model at the design stage of next generation Ethereum consensus protocol, even it may adopt a certain degree of abstraction, will benefit the Ethereum ecosystem by strengthening the consensus layer. Moreover, the backend (code generation) of Dafny tool may be used to help generate executable Python implementation with minimum help from human experts.
 
 ## Grant Scope
 
 *What are you going to research? What is the expected output?*
 
+We check whether it is feasible to create a Dafny model for a censensus protocol instance as complex as 3SF. In the past Dafny has been used to verify protocols such as DVT (https://github.com/Consensys/distributed-validator-formal-specs-and-verification) and QBFT (https://github.com/Consensys/qbft-formal-spec-and-verification). The 3SF protocol, even at its design stage, is arguably more complex. In this project the main focus is an instance of 3SF which consists of the FFG finality sub-protocol and the TOB-SVD dynamic availability sub-protocol, which together represent an instance of Ebb-and-Flow mechanism.
 
+The expected output is a package of Dafny models representing both a high level spec and a low level spec of the aforementioned 3SF instance protocol.
 
 ## Related Work
 
-What existing research is relevant to your project?
-What is the specific gap your research is addressing within this context?
+*What existing research is relevant to your project?
+What is the specific gap your research is addressing within this context?*
 
 ## Project Team
 
