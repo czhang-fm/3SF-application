@@ -5,7 +5,7 @@ The current Ethereum consensus protocol is very complex with the LMD-GHOST as th
 
 ## Objectives
 
-What are you hoping to accomplish with this grant? How do you define and measure success for this project?
+*What are you hoping to accomplish with this grant? How do you define and measure success for this project?*
 
 Given the 3SF currently at its design stage, we can apply the traditional formal verification to bridge the gap between the high level spec (https://arxiv.org/abs/2411.00558) and the low level spec in Python (https://github.com/saltiniroberto/ssf). Basically, we will need to produce two Dafny models corresponding to the specifications at high level and low level, with the low level Dafny model refines the high level Dafny model (i.e., the invariants established at the high level model is preserved in the low level model). Both models will need to cover the dynamic availability (DA) sub-protocol based on TOB-SVD and the finality sub-protocol based on SSF, with their corresponding security requirement proved as lemmas in both models. We specify this in the following.
 
@@ -15,6 +15,8 @@ The high level model follows the protocol specification in the technical report 
 ### Objective 2: Security properties (DA confirmation, FFG confirmation, and acountable safety)
 We will need to prove security properties in both models, with some controlled efforts to be made to migrate the prove from high to low via refinement. **Optimistic DA confirmation** should be proved on the DA sub-protocol provided (1) certain length of synchrony is guaranteed and (2) honest validators get a fair chance to propose blocks within that period. **Optimistic FFG confirmation** is similar, but should proved for the FFG sub-protocol. **Accountable safety** should be proved for the FFG sub-protocol on existence limited asynchrony that in case of two conflicting blocks being finalized, there is a way to identify atleast 1⁄3 faulty validators.
 
+The success of the project should be demonstrated via either the security properties proved at both the high level specification and the low level specification models, or the properties failed to be proved on either model. Failure of the high level model may expose design errors, and failure at the low level model may indicate issues at the executable Python implementation.
+
 ## Outcomes
 
 *How does this project benefit the greater Ethereum ecosystem?*
@@ -23,7 +25,9 @@ This project aims to increase the trust guarantees of the Ethereum Consensus Lay
 
 ## Grant Scope
 
-What are you going to research? What is the expected output?
+*What are you going to research? What is the expected output?*
+
+
 
 ## Related Work
 
