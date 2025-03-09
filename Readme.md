@@ -1,7 +1,7 @@
 # Formal analysis of the 3-Slot Finality based Ethereum consensus protocol
 ## Abstract
 
-The current Ethereum consensus protocol is very complex with the LMD-GHOST as the availability sub-protocol and FFG-Casper as the Finality sub-protocol. The next generation candidate protocol, known as 3-Slot Finality (3SF), is less complex, which provides an opportunity for formal verification. This project aims to deliver a Dafny model that is closely correlated to the evolving executable Python specification (https://github.com/saltiniroberto/ssf), so that the desirable security properties can be established as lemmas in Dafny under reasonable assumptions for the protocol execution environment, which will greatly increase the confidance for the candidate protocol 3SF in its design stage.
+The current Ethereum consensus protocol is very complex with the LMD-GHOST as the availability sub-protocol and FFG-Casper as the Finality sub-protocol. The next generation candidate protocol, known as 3-Slot Finality (3SF), is less complex, which provides an opportunity for formal verification. This project aims to develop a Dafny model closely aligned with the evolving executable Python specification (https://github.com/saltiniroberto/ssf), enabling the establishment of desirable security properties as lemmas in Dafny under reasonable assumptions about the protocol execution environment. Additionally, this project will investigate potential bugs and vulnerabilities in the 3SF protocol, significantly enhancing confidence in its reliability before its deployment in the Ethereum consensus layer.
 
 ## Objectives
 
