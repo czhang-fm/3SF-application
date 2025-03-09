@@ -38,15 +38,25 @@ What is the specific gap your research is addressing within this context?*
 
 ## Project Team
 
-How many people are working on this project?
+*How many people are working on this project?*
 
-Please list their names and roles for the project as well as how many hours per month will each person work on this project?
+*Please list their names and roles for the project as well as how many hours per month will each person work on this project?*
+
+-- PI: Chenyi Zhang (senior lecturer at University of Canterbury, New Zealand: https://profiles.canterbury.ac.nz/Chenyi-Zhang, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en)
+
+-- CoPI: Thanh Hai Tran (Independent researcher, Australia)
+
+-- Xilong Zhuo (PhD student at the University of Canterbury, New Zealand)
+
+-- Ming Li (PhD student at Jinan University, visiting student at the University of Canterbury, New Zealand)
 
 ## Background
 
-Give us a bit of info and include relevant links, if available! Please provide other projects or research papers (ideally public and/or open source), engagements or other types of proof that your team has the necessary experience to undertake the project you are applying for.
+*Give us a bit of info and include relevant links, if available! Please provide other projects or research papers (ideally public and/or open source), engagements or other types of proof that your team has the necessary experience to undertake the project you are applying for.*
 
-Any links for us to review? E.g. research papers, blog posts, etc.
+*Any links for us to review? E.g. research papers, blog posts, etc.*
+
+
 
 ## Methodology
 
