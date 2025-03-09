@@ -21,7 +21,8 @@ The success of the project should be demonstrated in the established Dafny model
 
 *How does this project benefit the greater Ethereum ecosystem?*
 
-This project aims to increase the trust guarantees of the Ethereum Consensus Layer specifications. Given its complexity, the current Ethereum consensus protocol Gasper has been exposed of bugs or vulnerabilities in its fork choice Python specification which were fixed with great efforts (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure). A formally verified model at the design stage of next generation Ethereum consensus protocol, even it may adopt a certain degree of abstraction, will benefit the Ethereum ecosystem by strengthening the consensus layer. Moreover, the backend (code generation) of Dafny tool may be used to help generate executable Python implementation with minimum help from human experts.
+This project aims to enhance the trustworthiness of the Ethereum Consensus Layer specifications, which serve as the foundation of the entire ecosystem. Due to its complexity, the current Ethereum consensus protocol, Gasper, has been found to contain bugs and vulnerabilities in its fork-choice Python specification, requiring significant effort to resolve (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure). Developing a formally verified model at the design stage of the next-generation Ethereum consensus protocol, even with a certain level of abstraction, will strengthen the consensus layer and benefit the Ethereum ecosystem. Additionally, the Dafny tool’s backend (code generation) could assist in generating an executable Python implementation with minimal human intervention.
+
 
 ## Grant Scope
 
