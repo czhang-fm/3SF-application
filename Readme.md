@@ -12,12 +12,14 @@ Given the 3SF currently at its design stage, we can apply the traditional formal
 ### Objective 1: Dafny models for 3SF.
 The high level model follows the protocol specification in the technical report (https://arxiv.org/abs/2411.00558). All possible behaviors of validators and round (time) progress are specified as predicates that transfer protocol state from one to another, guarded by the conditions specified in the protocol specification. In high level model is produced by hand. The low level model may be created by using existing tool, which may be done via a transformer (https://hackmd.io/@ericsson49/python-to-dafny-transpiler) or a fine-tuned LLM model, though human intervention is still necessary.
 
-### Objective 2: Security properties (optimistic DA confirmation, optimistic FFG confirmation, acountable safety)
+### Objective 2: Security properties (DA confirmation, FFG confirmation, and acountable safety)
 We will need to prove security properties in both models, with some controlled efforts to be made to migrate the prove from high to low via refinement. **Optimistic DA confirmation** should be proved on the DA sub-protocol provided (1) certain length of synchrony is guaranteed and (2) honest validators get a fair chance to propose blocks within that period. **Optimistic FFG confirmation** is similar, but should proved for the FFG sub-protocol. **Accountable safety** should be proved for the FFG sub-protocol on existence limited asynchrony that in case of two conflicting blocks being finalized, there is a way to identify atleast 1⁄3 faulty validators.
 
 ## Outcomes
 
 How does this project benefit the greater Ethereum ecosystem?
+
+This project aims to increase the trust guarantees of the Ethereum Consensus Layer specifications. Ethereum is quite a complex distributed protocol, with many moving parts and so-called “corner cases” that are easy to miss (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure) in the Fork Choice part of the Ethereum specification.
 
 ## Grant Scope
 
