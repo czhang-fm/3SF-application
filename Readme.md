@@ -1,8 +1,7 @@
-# Grant Proposal Outline
+# Formal analysis of the 3-Slot Finality based Ethereum consensus protocol
+## Abstract
 
-## Project Abstract
-
-In 3-5 sentences what problem are you trying to solve? (The project abstract may be used for for the winners announcement.)
+The current Ethereum consensus protocol is very complex with the LMD-GHOST as the availability sub-protocol and FFG-Casper as the Finality sub-protocol. The next generation candidate protocol, known as 3-Slot Finality, is less complex, which provides an opportunity for formal verification. This project aims to deliver a Dafny model that is closely correlated to the evolving executable Python specification (https://github.com/saltiniroberto/ssf), so that the desirable security properties can be established as theorems in Dafny under reasonable assumptions for the protocol execution environment, which will greatly increase the confidance for the candidate protocol in its design stage.
 
 ## Objectives
 
