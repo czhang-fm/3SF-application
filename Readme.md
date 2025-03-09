@@ -42,9 +42,9 @@ What is the specific gap your research is addressing within this context?*
 
 *Please list their names and roles for the project as well as how many hours per month will each person work on this project?*
 
--- PI: Chenyi Zhang (senior lecturer at University of Canterbury, New Zealand: https://profiles.canterbury.ac.nz/Chenyi-Zhang, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en)
+-- Chenyi Zhang (PI, senior lecturer at University of Canterbury, New Zealand, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en)
 
--- CoPI: Thanh Hai Tran (Independent researcher, Australia)
+-- Thanh-Hai Tran (CoPI, Independent researcher, Australia)
 
 -- Xilong Zhuo (PhD student at the University of Canterbury, New Zealand)
 
@@ -54,9 +54,13 @@ What is the specific gap your research is addressing within this context?*
 
 *Give us a bit of info and include relevant links, if available! Please provide other projects or research papers (ideally public and/or open source), engagements or other types of proof that your team has the necessary experience to undertake the project you are applying for.*
 
+Chenyi Zhang (PhD in Computer Science) has contributed in defining security properties and a fast confirmation rule (https://arxiv.org/abs/2405.00549) for the current Ethereum consensus protocol (Gasper). In the past he worked on static program analysis in Java, security protocol verification, and information flow security in various semantic models.
+
+Thanh-Hai Tran (PhD in Computer Science) has worked on formal verification of the Distributed Validator protocol in Dafny and the model checking of the Ethereum consensus protocol in TLA+. He is a co-inventor of the 3SF Ethereum consensus protocol.
+
+Xilong Zhuo is a PhD candidate in Computer Science. His current research topic is formal verification of security protocols.
+
 *Any links for us to review? E.g. research papers, blog posts, etc.*
-
-
 
 ## Methodology
 
