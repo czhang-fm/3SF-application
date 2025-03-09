@@ -17,7 +17,7 @@ We will need to prove security properties in both models, with some controlled e
 
 ## Outcomes
 
-How does this project benefit the greater Ethereum ecosystem?
+*How does this project benefit the greater Ethereum ecosystem?*
 
 This project aims to increase the trust guarantees of the Ethereum Consensus Layer specifications. Ethereum is quite a complex distributed protocol, with many moving parts and so-called “corner cases” that are easy to miss (https://notes.ethereum.org/@djrtwo/2023-fork-choice-reorg-disclosure) in the Fork Choice part of the Ethereum specification.
 
