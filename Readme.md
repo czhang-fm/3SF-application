@@ -42,13 +42,13 @@ What is the specific gap your research is addressing within this context?*
 
 *Please list their names and roles for the project as well as how many hours per month will each person work on this project?*
 
--- Chenyi Zhang (PI, senior lecturer at University of Canterbury, New Zealand, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en)
+-- Chenyi Zhang (PI, senior lecturer at University of Canterbury, New Zealand, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en) will guide the design, modelling the protocol as well as the proof engineering. He will contribute 75 hours per months (50%).
 
--- Thanh-Hai Tran (CoPI, Independent researcher, Australia)
+-- Thanh-Hai Tran (CoPI, Independent researcher, Australia) will guide the design, modelling the protocol as well as the proof engineering. He will contribute 75 hours per months (50%).
 
--- Xilong Zhuo (PhD student at the University of Canterbury, New Zealand)
+-- Xilong Zhuo (PhD student at the University of Canterbury, New Zealand), will participate in the Dafny modelling and formal proofs and will contribute 75 hours per month (50%).
 
--- Ming Li (PhD student at Jinan University, visiting student at the University of Canterbury, New Zealand)
+-- Ming Li (PhD student at Jinan University, visiting student at the University of Canterbury, New Zealand), will mainly work as a research engineer for maintaining the IT environment as well as participating the modelling in Dafny and will contribute 75 hours per month (50%)
 
 ## Background
 
@@ -60,13 +60,15 @@ Thanh-Hai Tran (PhD in Computer Science) has worked on formal verification of th
 
 Xilong Zhuo is a PhD candidate in University of Canterbury. His current research topic is formal verification of security protocols.
 
-Ming Li is a PhD candidate in Jinan University. His current research focus is theoretical foundation of Artificial Intelligence. He is currently a visiting student at the University of Canterbury.
+Ming Li is a PhD candidate in Jinan University. His current research focus is in theoretical foundation of Artificial Intelligence. He is currently a visiting student at the University of Canterbury.
 
 *Any links for us to review? E.g. research papers, blog posts, etc.*
 
 ## Methodology
 
-How do you plan to achieve your research objectives?
+*How do you plan to achieve your research objectives?*
+
+
 
 ## Timeline
 
