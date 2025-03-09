@@ -42,7 +42,7 @@ What is the specific gap your research is addressing within this context?*
 
 *Please list their names and roles for the project as well as how many hours per month will each person work on this project?*
 
--- Chenyi Zhang (PI, senior lecturer at University of Canterbury, New Zealand, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en) will guide the design, modelling the protocol as well as the proof engineering. He will contribute 75 hours per months (50%).
+-- Chenyi Zhang (PI, senior lecturer at University of Canterbury, New Zealand, https://scholar.google.com/citations?user=0W4CUDoAAAAJ&hl=en) will guide the design, modelling the protocol as well as the proof engineering. He will contribute 37.5 hours per months (25%).
 
 -- Thanh-Hai Tran (CoPI, Independent researcher, Australia) will guide the design, modelling the protocol as well as the proof engineering. He will contribute 75 hours per months (50%).
 
