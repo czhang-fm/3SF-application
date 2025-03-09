@@ -58,7 +58,9 @@ Chenyi Zhang (PhD in Computer Science) has contributed in defining security prop
 
 Thanh-Hai Tran (PhD in Computer Science) has worked on formal verification of the Distributed Validator protocol in Dafny and the model checking of the Ethereum consensus protocol in TLA+. He is a co-inventor of the 3SF Ethereum consensus protocol.
 
-Xilong Zhuo is a PhD candidate in Computer Science. His current research topic is formal verification of security protocols.
+Xilong Zhuo is a PhD candidate in University of Canterbury. His current research topic is formal verification of security protocols.
+
+Ming Li is a PhD candidate in Jinan University. His current research focus is theoretical foundation of Artificial Intelligence. He is currently a visiting student at the University of Canterbury.
 
 *Any links for us to review? E.g. research papers, blog posts, etc.*
 
