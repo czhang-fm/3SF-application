@@ -1,11 +1,19 @@
 # Formal analysis of the 3-Slot Finality based Ethereum consensus protocol
 ## Abstract
 
-The current Ethereum consensus protocol is very complex with the LMD-GHOST as the availability sub-protocol and FFG-Casper as the Finality sub-protocol. The next generation candidate protocol, known as 3-Slot Finality, is less complex, which provides an opportunity for formal verification. This project aims to deliver a Dafny model that is closely correlated to the evolving executable Python specification (https://github.com/saltiniroberto/ssf), so that the desirable security properties can be established as theorems in Dafny under reasonable assumptions for the protocol execution environment, which will greatly increase the confidance for the candidate protocol in its design stage.
+The current Ethereum consensus protocol is very complex with the LMD-GHOST as the availability sub-protocol and FFG-Casper as the Finality sub-protocol. The next generation candidate protocol, known as 3-Slot Finality (3SF), is less complex, which provides an opportunity for formal verification. This project aims to deliver a Dafny model that is closely correlated to the evolving executable Python specification (https://github.com/saltiniroberto/ssf), so that the desirable security properties can be established as lemmas in Dafny under reasonable assumptions for the protocol execution environment, which will greatly increase the confidance for the candidate protocol 3SF in its design stage.
 
 ## Objectives
 
 What are you hoping to accomplish with this grant? How do you define and measure success for this project?
+
+Given the 3SF currently at its design stage, we can apply the traditional formal verification to bridge the gap between the high level spec (https://arxiv.org/abs/2411.00558) and the low level spec in Python (https://github.com/saltiniroberto/ssf). Basically, we will need to produce two Dafny models corresponding to the specifications at high level and low level, with the low level Dafny model refines the high level Dafny model (i.e., the invariants established at the high level model is preserved in the low level model). Both models will need to cover the dynamic availability sub-protocol based on TOB-SVD and the finality sub-protocol based on SSF, with their corresponding security requirement proved as lemmas in both models. We specify this in the following.
+
+### Objective 1: Dafny models for 3SF.
+The high level model follows the protocol specification in the technical report (https://arxiv.org/abs/2411.00558). All possible behaviors of validators and round (time) progress are specified as predicates that transfer protocol state from one to another, guarded by the conditions specified in the protocol specification. In high level model is produced by hand. The low level model may be created by using existing tool, which may be done via a transformer (https://hackmd.io/@ericsson49/python-to-dafny-transpiler) or a fine-tuned LLM model, though human intervention is still necessary.
+
+### Objective 2: Security properties proved in the models.
+
 
 ## Outcomes
 
